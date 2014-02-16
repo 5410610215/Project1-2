@@ -1,0 +1,15 @@
+%center
+  %table
+    %tr
+      %td
+        %p{:style => "font-size:30px;font-weight:bold;"}
+          = link_to "Unsolved", unsolveds_path
+      %td
+        %p{:style => "font-size:30px;font-weight:bold;"}
+          = link_to "About", abouts_path
+
+
+%body{:style => "background-color:#EEEEEE;"}
+%center
+  %h1{:style => "color:#FF3030;font-size:100px;"} Welcome to Problempedia
+

@@ -1,0 +1,7 @@
+%body{:style => "background-color:#EEEEEE;"}
+%center
+  %h1{:style => "color:#157DEC;font-size:40px;"}  Add new Problem to Problempedia
+
+  = render 'form'
+
+  %p{:style => "font-size:15px;font-weight:bold;"}= link_to 'Back to Listing Unsolved Problem', unsolveds_path

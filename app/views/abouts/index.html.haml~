@@ -1,0 +1,144 @@
+%center
+  %table
+    %tr
+      %td
+        %p{:style => "font-size:20px;font-weight:bold;"}
+          %a{:href => "https://github.com/5410610215/Project"} Link to:Github
+      %td
+        %p{:style => "font-size:20px;font-weight:bold;"}
+          %a{:href => "https://www.pivotaltracker.com/s/projects/1012438"} Link to:Github
+        
+
+%body{:style => "background-color:#EEEEEE;"}
+%center
+  %h1{:style => "color:#FF3030;font-size:100px;"} PROBLEMPEDIA
+  %table{:style => "color:#1874CD;"}
+    %tr
+      %td{:style => "font-size:25px;"} Supanut
+      %td{:style => "font-size:25px;"} Leardkarn
+      %td{:style => "font-size:25px;"} 5410610165
+    %tr
+      %td{:style => "font-size:25px;"} Parispan
+      %td{:style => "font-size:25px;"} Pansiri
+      %td{:style => "font-size:25px;"} 5410610215
+    %tr
+      %td{:style => "font-size:25px;"} Natchapon
+      %td{:style => "font-size:25px;"} Chuikumnerd
+      %td{:style => "font-size:25px;"} 5410612104
+    %tr
+      %td{:style => "font-size:25px;"} Santiphab
+      %td{:style => "font-size:25px;"} Rungrijvithayakul
+      %td{:style => "font-size:25px;"} 5410611775
+    %tr
+      %td{:style => "font-size:25px;"} Chaipat
+      %td{:style => "font-size:25px;"} Suebsantiworapong
+      %td{:style => "font-size:25px;"} 5410611296
+
+%pre
+
+
+
+%center
+  %table
+    %tr
+      %td
+        %center 
+          %img{src: "assets/1.jpg"}
+    %tr
+      %td
+        %center 
+          %img{src: "assets/2.jpg"}
+    %tr
+      %td
+        %center 
+          %img{src: "assets/3.jpg"}
+    %tr
+      %td
+        %center 
+          %img{src: "assets/Form.jpg"}
+
+%pre
+
+
+%table
+  %tr
+    %td
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 1 : Add the problem to Problempedia
+                       As an Admin
+           	     So that I can share the problem with either employees
+           	     I want to add the problem to Problempedia
+  %tr                 
+    %td
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 2 : Add how to solve the problem to Problempedia
+                       As an employees
+          	     So that I know how to solve the problem, I can share this with other employees
+           	     I want to add how to solve the problem to Problempedia
+  %tr                   
+    %td  
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 3 : Search the problem to Problempedia 
+                       As an employees
+           	     So that I can search the problem on Problempedia
+           	     I want to search the problem on Problempedia database
+  %tr                   
+    %td 
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 4 : Delete the problem to Problempedia
+                       As an Admin
+           	     So that I can delete the problem on Problempedia
+           	     I want to delete the problem on Problempedia database
+  %tr                   
+    %td
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 5 : Delete the solve that break the rules
+                       As an Admin
+          	     So that I can delete the solve problem that break the rules
+           	     I want to delete the solve problem that break the rules
+  %tr                   
+    %td
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+           Feature 6 : Show the unsolved problem
+                       As an everyone
+           	     So that I can see the unsolved problem
+           	     I want to see the unsolved problem
+  %tr                   
+    %td
+      %pre{:style => "font-size:15px;color:#FF0033;background-color:#BBBBBB;"}
+        :preserve
+          Feature 7 : Show the solved problem
+                      As an everyone
+           	    So that I can see the solved problem
+           	    I want to see the solved problem
+
+%pre
+
+
+
+%center
+  %table
+    %tr
+      %td
+        %center 
+          %img{src: "assets/ER.jpg"}
+    %tr
+      %td 
+        %center
+          %img{src: "assets/story.jpg"}
+    %tr
+      %td
+        %center 
+          %img{src: "assets/lofi.jpg"}
+
+       
+       
+        
+
+

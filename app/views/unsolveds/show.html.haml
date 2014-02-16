@@ -1,0 +1,52 @@
+%body{:style => "background-color:#EEEEEE;"}
+%center
+  %p{:style => "color:#00DD00;font-size:25px;"}
+    = notice
+  %table{:border => "1"}
+    %tr
+      %th{:style => "color:#000000;font-size:25px;width:18%;height:70px"}
+        %center 
+          Priority
+      %td{:style => "font-size:17px;;height:30px"}
+        %center
+          - if @unsolved.priority == 1 
+            = "LOW"
+          - else
+            = "HIGH"
+    %tr
+      %th{:style => "color:#000000;font-size:25px;width:18%;height:70px"}
+        %center 
+          Topic
+      %td{:style => "font-size:17px;;height:30px"}
+        %center 
+          = @unsolved.topic
+    %tr
+      %th{:style => "color:#000000;font-size:25px;width:18%;height:70px"}
+        %center 
+          Department
+      %td{:style => "font-size:17px;;height:30px"}
+        %center 
+          = @unsolved.department
+    %tr
+      %th{:style => "color:#000000;font-size:25px;width:18%;height:70px"}
+        %center 
+          Details
+      %td{:style => "font-size:17px;;height:30px"}
+        %center 
+          = @unsolved.details
+    %tr
+      %th{:style => "color:#000000;font-size:25px;width:18%;height:70px"}
+        %center 
+          Status
+      %td{:style => "font-size:17px;height:30px;color:#FF0000;"}
+        %center 
+          - if @unsolved.status == 0 
+            = "UNSOLVED"
+          - else
+            = "SOLVED"
+
+
+
+  -#  %p{:style => "font-size:15px;font-weight:bold;"}= link_to 'Edit', edit_unsolved_path(@unsolved)
+
+  %p{:style => "font-size:15px;font-weight:bold;"}= link_to 'Back', unsolveds_path

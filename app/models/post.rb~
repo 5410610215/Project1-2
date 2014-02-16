@@ -1,0 +1,7 @@
+class Post < ActiveRecord::Base
+has_many :comments, dependent: :destroy
+  attr_accessible :text, :title
+ include ActiveModel::ForbiddenAttributesProtection
+validates :title, presence: true,
+                    length: { minimum: 5 }   #length belong text in title minimum is 5
+end
