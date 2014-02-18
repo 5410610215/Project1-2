@@ -2,7 +2,7 @@
   "Cucumber Features": {
     "coverage": {
     },
-    "timestamp": 1392562708
+    "timestamp": 1392710451
   },
   "RSpec": {
     "coverage": {
@@ -176,6 +176,6 @@
         null
       ]
     },
-    "timestamp": 1392566589
+    "timestamp": 1392710118
   }
 }
